@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Surprise For You 💗</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HALAMAN PEMBUKA -->
+    <section id="opening" class="page active">
+
+        <div class="card">
+            <div class="gift">🎁</div>
+
+            <h1>Hai ilham 💗</h1>
+
+            <p>
+                Aku punya kejutan nihhh...
+            </p>
+
+            <p class="small">
+                Tapi kamu harus buka sendiri yaa 👀
+            </p>
+
+            <button onclick="openSurprise()">
+                Buka Surprise 💌
+            </button>
+        </div>
+
+    </section>
+
+
+    <!-- ISI SURPRISE -->
+    <section id="mainContent" class="hidden">
+
+        <!-- HERO -->
+        <div class="hero">
+
+            <div class="heart-big">💗</div>
+
+            <h1>For My heart (mybe)</h1>
+
+            <p>
+                Website kecil ini aku buat khusus untuk kamu ✨
+            </p>
+
+            <button onclick="scrollToSection('letter')">
+                Baca Pesanku 💌
+            </button>
+
+        </div>
+
+
+        <!-- COUNTER -->
+        <div class="section">
+
+            <h2>💞 Our Time Together</h2>
+
+            <p class="subtitle">
+                Terimakasih sudah hadir di dunia ini
+            </p>
+
+            <div class="counter">
+
+                <div>
+                    <span id="days">90</span>
+                    <p>Hari</p>
+                </div>
+
+                <div>
+                    <span id="hours">2160</span>
+                    <p>Jam</p>
+                </div>
+
+                <div>
+                    <span id="minutes">129.600</span>
+                    <p>Menit</p>
+                </div>
+
+                <div>
+                    <span id="seconds">7.776.000</span>
+                    <p>Detik</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- GALERI -->
+        <div class="section">
+
+            <h2>📸 Our Memories</h2>
+
+            <p class="subtitle">
+                so beautiful.
+            </p>
+
+            <div class="gallery">
+
+                <div class="photo-card">
+                    <img src="WhatsApp Image 2026-11-05 at 11.50.44 PM.jpeg" alt="day-1 fotbar">
+                    <p>so so cute 💗</p>
+                </div>
+
+                <div class="photo-card">
+                    <img src="WhatsApp Image 2026-11-04 at 9.24.02 PM.jpeg" alt="Foto yang sangat berkesan bagi aku">
+                    <p>lucu banget 🥹</p>
+                </div>
+
+                <div class="photo-card">
+                    <img src="WhatsApp Image 2026-11-05 at 11.51.31 PM.jpeg" alt="Foto favorit aku ">
+                    <p>kayak bocil ✨</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- SURAT -->
+        <div class="section" id="letter">
+
+            <div class="letter">
+
+                <h2>💌 A Little Letter For You</h2>
+
+                <p>
+                    Hai kamu,
+                </p>
+
+                <p>
+                    Terimakasih sudah pernah hadir  di dalam hidup aku ini...
+                    Terimakasih atas segala momen indah yang sudah ada
+                </p>
+
+                <p>
+                    Terima kasih untuk semua cerita, perhatian,
+                    candaan, dan momen-momen kecil yang kita punya.
+                    Mungkin beberapa hal terlihat sederhana,
+                    Tapi buat itu itu sangat berharga.
+                </p>
+
+                <p>
+                    maaf apabila aku sering membuat mu lelah sama sifat aku waktu itu karena sering ngambek 
+                    karena masalah kecil "aku gitu karena kangen aja hehehe" .
+                </p>
+
+                <p>
+                    Kalau suatu hari kamu lagi capek,
+                    jangan lupa kalau ada seseorang yang selalu
+                    berharap hari kamu berjalan dengan baik. 💗
+                </p>
+
+                <p class="signature">
+                    With lots of love,<br>
+                    ❤️ Dari aku
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- ALASAN -->
+        <div class="section">
+
+            <h2>🌷 Things I Like About You</h2>
+
+            <div class="reasons">
+
+                <div class="reason">
+                    💗
+                    <h3>Your Smile</h3>
+                    <p>Senyummu bisa bikin hari biasa jadi lebih menyenangkan.</p>
+                </div>
+
+                <div class="reason">
+                    🫶
+                    <h3>Your Kindness</h3>
+                    <p>Aku suka bagaimana kamu memperlakukan orang lain.</p>
+                </div>
+
+                <div class="reason">
+                    😂
+                    <h3>Your Humor</h3>
+                    <p>Terima kasih sudah bikin aku ketawa karena hal-hal random.</p>
+                </div>
+
+                <div class="reason">
+                    ✨
+                    <h3>Just You</h3>
+                    <p>Dan yang paling penting, aku suka kamu menjadi dirimu sendiri.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- SURPRISE TERAKHIR -->
+        <div class="section final-section">
+
+            <h2>Ada satu lagi... 👀</h2>
+
+            <p>
+                Tekan tombolnya kalau kamu berani 😆
+            </p>
+
+            <button onclick="finalSurprise()">
+                Klik Aku 🎀
+            </button>
+
+            <div id="finalMessage" class="final-message hidden">
+
+                <div class="giant-heart">💗</div>
+
+                <h1>You Are Special!</h1>
+
+                <p>
+                    Terima kasih sudah hadir di hidupku.
+                </p>
+
+                <p>
+                    Terimakasih telah memberikan momen yang sangat berharga buat Aku
+                    aku bahagia saat kamu bersama ku. 🌷
+                </p>
+
+                <h2>I Love You 💗</h2>
+
+            </div>
+
+        </div>
+
+
+        <footer>
+            Made with 💗 just for you
+        </footer>
+
+    </section>
+
+
+    <!-- MUSIK -->
+    <audio id="music" loop>
+        <source src="WhatsApp Audio 2026-11-06 at 12.02.19 AM.mp4" type="audio/mpeg">
+    </audio>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
